@@ -1,0 +1,23 @@
+name: Focus Do Not Disturb tests
+
+on:
+  push:
+    branches: [test/focus-do-not-disturb]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Install GNOME test dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y gjs libglib2.0-bin gsettings-desktop-schemas
+      - name: Run isolated timer tests
+        run: GSETTINGS_BACKEND=memory gjs -m tests/do-not-disturb.js
