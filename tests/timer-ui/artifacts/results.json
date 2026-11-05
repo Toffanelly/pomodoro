@@ -1,0 +1,173 @@
+{
+  "before": {
+    "monitor": {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "geometry_scale": 1
+    },
+    "heading": {
+      "width": 109,
+      "ellipsized": true
+    },
+    "popup": {
+      "x": 1540,
+      "y": 32,
+      "width": 374,
+      "height": 320
+    },
+    "checks": []
+  },
+  "final-normal": {
+    "monitor": {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "geometry_scale": 1
+    },
+    "heading": {
+      "width": 320,
+      "ellipsized": false
+    },
+    "popup": {
+      "x": 1540,
+      "y": 32,
+      "width": 374,
+      "height": 320,
+      "fitsScreenHeight": true
+    },
+    "checks": [
+      "Heading fits the available popup width",
+      "Popup stays within the screen width",
+      "Timer is fully visible",
+      "Adjustment buttons do not overlap the timer",
+      "Adjustment buttons have accessible names",
+      "Plus button adds five minutes before starting",
+      "Minus button removes five minutes",
+      "Both adjustment buttons hide while running",
+      "Paused timer accepts adjustments and retains Resume",
+      "Reset restores the configured timer",
+      "Minus is disabled and skipped by keyboard at five minutes",
+      "Three-digit minute values remain fully visible",
+      "Long headings retain ellipsis when space is insufficient"
+    ]
+  },
+  "before-compact": {
+    "monitor": {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 600,
+      "geometry_scale": 1
+    },
+    "heading": {
+      "width": 159,
+      "ellipsized": true
+    },
+    "popup": {
+      "x": 420,
+      "y": 48,
+      "width": 374,
+      "height": 375
+    },
+    "checks": []
+  },
+  "final-compact": {
+    "monitor": {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 600,
+      "geometry_scale": 1
+    },
+    "heading": {
+      "width": 320,
+      "ellipsized": false
+    },
+    "popup": {
+      "x": 420,
+      "y": 48,
+      "width": 374,
+      "height": 375,
+      "fitsScreenHeight": true
+    },
+    "checks": [
+      "Heading fits the available popup width",
+      "Popup stays within the screen width",
+      "Timer is fully visible",
+      "Adjustment buttons do not overlap the timer",
+      "Adjustment buttons have accessible names",
+      "Plus button adds five minutes before starting",
+      "Minus button removes five minutes",
+      "Both adjustment buttons hide while running",
+      "Paused timer accepts adjustments and retains Resume",
+      "Reset restores the configured timer",
+      "Minus is disabled and skipped by keyboard at five minutes",
+      "Three-digit minute values remain fully visible",
+      "Long headings retain ellipsis when space is insufficient"
+    ]
+  },
+  "before-large": {
+    "monitor": {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 480,
+      "geometry_scale": 1
+    },
+    "heading": {
+      "width": 210,
+      "ellipsized": true
+    },
+    "popup": {
+      "x": 194,
+      "y": 65,
+      "width": 440,
+      "height": 429
+    },
+    "checks": []
+  },
+  "final-large": {
+    "monitor": {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 480,
+      "geometry_scale": 1
+    },
+    "heading": {
+      "width": 387,
+      "ellipsized": false
+    },
+    "popup": {
+      "x": 193,
+      "y": 65,
+      "width": 441,
+      "height": 429,
+      "fitsScreenHeight": false
+    },
+    "checks": [
+      "Heading fits the available popup width",
+      "Popup stays within the screen width",
+      "Timer is fully visible",
+      "Adjustment buttons do not overlap the timer",
+      "Adjustment buttons have accessible names",
+      "Plus button adds five minutes before starting",
+      "Minus button removes five minutes",
+      "Both adjustment buttons hide while running",
+      "Paused timer accepts adjustments and retains Resume",
+      "Reset restores the configured timer",
+      "Minus is disabled and skipped by keyboard at five minutes",
+      "Three-digit minute values remain fully visible",
+      "Long headings retain ellipsis when space is insufficient"
+    ]
+  }
+}
